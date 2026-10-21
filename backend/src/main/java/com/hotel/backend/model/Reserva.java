@@ -10,33 +10,50 @@ public class Reserva {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String habitacion;
+    private String tipoHabitacion;
+    private String numeroHabitacion;
     private LocalDate checkIn;
     private LocalDate checkOut;
     private String totalPagado;
 
-    // Relación: Muchos reservas pueden pertenecer a un mismo huésped
+    // 🔥 CAMPO NUEVO: Necesario para la intranet (Confirmada, Pendiente, Cancelada)
+    private String estado;
+
+    // Relación: Muchas reservas pueden pertenecer a un mismo huésped
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "huesped_id")
     private Huesped huesped;
 
-    // Guardaremos los tours como un texto simple (JSON) por ahora para facilitar la inserción
+    // Guardaremos los tours como un texto simple (JSON) por ahora
     @Column(columnDefinition = "TEXT")
     private String toursDetalle;
 
-    // Getters y Setters
+    // --- Getters y Setters ---
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
-    public String getHabitacion() { return habitacion; }
-    public void setHabitacion(String habitacion) { this.habitacion = habitacion; }
+
+    public String getTipoHabitacion() { return tipoHabitacion; }
+    public void setTipoHabitacion(String tipoHabitacion) { this.tipoHabitacion = tipoHabitacion; }
+
+    public String getNumeroHabitacion() { return numeroHabitacion; }
+    public void setNumeroHabitacion(String numeroHabitacion) { this.numeroHabitacion = numeroHabitacion; }
+
     public LocalDate getCheckIn() { return checkIn; }
     public void setCheckIn(LocalDate checkIn) { this.checkIn = checkIn; }
+
     public LocalDate getCheckOut() { return checkOut; }
     public void setCheckOut(LocalDate checkOut) { this.checkOut = checkOut; }
+
     public String getTotalPagado() { return totalPagado; }
     public void setTotalPagado(String totalPagado) { this.totalPagado = totalPagado; }
+
+    public String getEstado() { return estado; }
+    public void setEstado(String estado) { this.estado = estado; }
+
     public Huesped getHuesped() { return huesped; }
     public void setHuesped(Huesped huesped) { this.huesped = huesped; }
+
     public String getToursDetalle() { return toursDetalle; }
     public void setToursDetalle(String toursDetalle) { this.toursDetalle = toursDetalle; }
 }
