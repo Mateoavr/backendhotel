@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e41057f2-9fe7-4b09-a21f-9d48a9e73e54" name="Changes" comment="Agregando Dockerfile">
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="e41057f2-9fe7-4b09-a21f-9d48a9e73e54" name="Changes" comment="ajuste">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/hotel/backend/controller/ReservaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/hotel/backend/controller/ReservaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792620720085</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ajuste">
+      <option name="closed" value="true" />
+      <created>1792621682803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1792621682803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sa" />
     <MESSAGE value="Agregando Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando Dockerfile" />
+    <MESSAGE value="ajuste" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajuste" />
   </component>
 </project>

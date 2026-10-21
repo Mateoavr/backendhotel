@@ -1,5 +1,6 @@
 package com.hotel.backend.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import com.hotel.backend.model.Huesped;
 import com.hotel.backend.model.Reserva;
 import com.hotel.backend.repository.ReservaRepository;
