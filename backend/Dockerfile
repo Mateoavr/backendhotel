@@ -2,6 +2,7 @@
 FROM gradle:8.5-jdk17 AS build
 COPY . /app
 WORKDIR /app
+RUN chmod +x ./gradlew
 RUN ./gradlew build -x test
 
 # Etapa de ejecución
