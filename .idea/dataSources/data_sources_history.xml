@@ -1,0 +1,26 @@
+<DataSourcesHistory>
+  <DataSourceFromHistory isRemovedFromProject="false">
+    <data-source source="LOCAL" name="bghzjma2zpl3sobaimb2@bghzjma2zpl3sobaimb2-postgresql.services.clever-cloud.com" track-namespaces="false" uuid="7485fc71-780b-4757-af7e-01cfd6767b42">
+      <database-info product="PostgreSQL" version="18.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.13" dbms="POSTGRES" exact-version="18.6" exact-driver-version="42.7">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <rewrite-bounds>false</rewrite-bounds>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://bghzjma2zpl3sobaimb2-postgresql.services.clever-cloud.com:50015/bghzjma2zpl3sobaimb2</jdbc-url>
+      <secret-storage>master_key</secret-storage>
+      <user-name>ungmpi7mvyffz8ywmms7</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" negative="1" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <introspection-level>1</introspection-level>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </DataSourceFromHistory>
+</DataSourcesHistory>
